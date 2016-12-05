@@ -1,0 +1,7 @@
+<template name="commBtn">
+  <button class="cls_commBtn"> {{btnLabel}} </button>
+</template>
+
+<template name="commEdit">
+<label class="cls_commEditLeftLabe">{{hintText}}</label>
+</template>

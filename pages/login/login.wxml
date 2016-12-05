@@ -1,0 +1,10 @@
+<import src="../common/comm_view.wxml" />
+  <view class="cls_inputLine" style="margin-top:20rpx;">
+    <text class="cls_commEditLeftLabe" >账户</text>
+    <input class="cls_commEdit" id="input_">{{hintText}}</input>
+  </view>
+  <view class="cls_inputLine" style="border-bottom: 1px solid #ccc;">
+    <text class="cls_commEditLeftLabe" >账户</text>
+    <input class="cls_commEdit" id="input_">{{hintText}}</input>
+  </view>
+  <template is="commBtn" data="{{btnLabel:'登陆'}}" />

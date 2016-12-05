@@ -1,0 +1,19 @@
+/* pages/login/login.wxss */
+
+.cls_inputLine {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  border-top: 1px solid #ccc;
+  background: #fff;
+}
+
+.cls_commEditLeftLabe {
+  display: flex;
+  height: 100%;
+  font-size: 38rpx;
+  color: #48c13d;
+  margin: 0 0 0 40rpx;
+  flex-direction: row;
+  align-items: center;
+}
