@@ -9,7 +9,8 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../login/login'
+      url: '../test/test'
+      //  url: '../login/login'
     })
   },
   onLoad: function () {
