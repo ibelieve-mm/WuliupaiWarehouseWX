@@ -1,12 +1,15 @@
-<import src="../common/comm_view.wxml" />
+
+<view>
 <form bindsubmit="loginSubmit">
   <view class="cls_inputLine" style="margin-top:100rpx;">
     <text class="cls_commEditLeftLabe">账户</text>
-    <input class="cls_commEdit" placeholder="请输入账户名">{{hintText}}</input>
+    <input class="cls_commEdit" name="account" placeholder="请输入账户名">{{hintText}}</input>
   </view>
   <view class="cls_inputLine" style="border-bottom: 1px solid #ccc;">
     <text class="cls_commEditLeftLabe">密码</text>
-    <input class="cls_commEdit" placeholder="请输入密码">{{hintText}}</input>
+    <input class="cls_commEdit" name="password" placeholder="请输入密码">{{hintText}}</input>
   </view>
+  <button class="cls_commBtn" formType="submit">登录</button>
 </form>
-<template is="commBtn" data="{{btnLabel:'登录'}}" />
+
+</view>
